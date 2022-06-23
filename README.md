@@ -4,11 +4,11 @@
 
 ## Class Slides:
 
-https://drive.google.com/drive/u/1/folders/1smen4Ho5tpY_0hGz0W7LaguxUWt4Ix02
+TBD
 
 ### CLASS GITLAB REPO
 
-https://utoronto.bootcampcontent.com/utoronto-bootcamp/utor-virt-bo-fsf-pt-12-2021-u-b
+
 
 ### ADDITIONAL CONTENT GITHUB REPO (THIS ONE)
 
