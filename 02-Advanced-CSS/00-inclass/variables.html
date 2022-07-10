@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables</title>
+    <style>
+        :root{
+            --red: #f74c35;
+            --blue: #13293D;
+            --textvar: red;
+            --borderVar: 5px solid black;
+        }
+        .box{
+            width:200px;
+            height:200px;
+            
+        }
+
+        .redbox{
+            border: var(--borderVar);
+            background-color: var(--red);
+            color:var(--textvar);
+        }
+        .bluebox{
+            border: var(--borderVar);
+            background-color: var(--blue);
+            color:var(--textvar);
+        }
+        p {
+            color: var(--red);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box redbox">BOX1</div>
+    <div class="box bluebox">BOX1</div>
+    <div class="box redbox">BOX1</div>
+    <div class="box bluebox">BOX1</div>
+    <div class="box redbox">BOX1</div>
+    <p>sdlifj slkdfjsdlkf slkdfj slkdf lskdfjhskldfjskldfj lskdfjlksdj flksdjf lksdjf lskj lksd fj</p>
+</body>
+</html>

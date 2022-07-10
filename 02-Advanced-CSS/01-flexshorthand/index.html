@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+<style>
+
+body {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-size:24px;
+  margin: 0;
+}
+
+main {
+  width: 100%;
+  height: 100px;
+  display: flex;
+}
+
+section {
+  padding:5px;
+}
+#red {
+  flex: 1;
+  background-color:coral;
+}
+#blue {
+  flex: 2;
+  background-color:lightblue;
+}
+#yellow {
+  flex: 1;
+  background-color:khaki;
+}
+#pink {
+  flex: 1;
+  background-color:pink;
+}
+button {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  padding:15px;
+  margin:20px
+}
+
+button:hover {
+    background-color: #f17fab;
+}
+
+button:active {
+    background-color: #eddb17;
+}
+input{
+    margin: 20px;
+    background-color: white;
+}
+input:focus {
+    background-color: chartreuse;
+}
+
+#firstname{
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+  main{
+    flex-direction: column;
+  }
+
+  #blue {
+    display: none;
+  }
+  #yellow {
+    display: block;
+  }
+
+}
+@media screen and (max-width: 768px) {
+  main{
+    flex-direction: column;
+  }
+
+  #blue {
+    display: block;
+  }
+  #yellow {
+    display: none;
+  }
+  
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h1>Flex Shorthand</h1>
+
+<p>Flex property of the BLUE div:</p>
+<main>
+  <section id="red">red</section>
+  <section id="blue" >blue</section>
+  <section id="yellow" >yellow</section>
+  <section id="pink">pink</section>
+</main>
+<h2>Buttons</h2>
+<input type="text" id="firstname" placeholder="Bob Dobalina"><br>
+<input type="text" id="email" placeholder="name@email.com"><br>
+<input type="password" id="password" placeholder=""><br>
+
+<button>CLICK ME</button>
+
+</body>
+</html>
